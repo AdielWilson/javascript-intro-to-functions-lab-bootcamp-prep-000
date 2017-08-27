@@ -12,6 +12,13 @@ mixedCase.toLowerCase() === mixedCase // false
 
 mixedCase.toUpperCase() === mixedCase // false
 
+describe('shout(string)', () => {
+  it('receives one argument and returns it in all caps', () => {
+
+expect(shout('hello')).toEqual('HELLO')
+})
+})
+
 function shout(string) {
   return string.toUpperCase()
 }

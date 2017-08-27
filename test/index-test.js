@@ -1,4 +1,4 @@
-/*
+
 const expect = require('expect')
 
 const fs = require('fs')
@@ -17,7 +17,7 @@ var mixedCase = 'Hi there!'
 mixedCase.toLowerCase() === mixedCase // false
 
 mixedCase.toUpperCase() === mixedCase // false
-*/
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -37,7 +37,7 @@ describe('whisper(string)', function() {
   })
 })
 function logShout(string) {
-       console.console.log(string.toUpperCase());  
+       console.console.log(string.toUpperCase());
 }
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
@@ -51,7 +51,7 @@ describe('logShout(string)', function() {
   })
 })
 function logWhisper(string) {
-       console.console.log(string.toLowerCase());  
+       console.console.log(string.toLowerCase());
 }
 describe('logShout(string)', function() {
 

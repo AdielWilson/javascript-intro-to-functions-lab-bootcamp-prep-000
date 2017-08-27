@@ -3,7 +3,7 @@ const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
-var uppercase = "HELLO!"
+var uppercase = "I LOVE YOU GRANDMA"
 
 uppercase.toUpperCase() === uppercase // true
 

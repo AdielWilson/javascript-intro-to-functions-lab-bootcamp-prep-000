@@ -1,23 +1,4 @@
 
-const expect = require('expect')
-
-const fs = require('fs')
-const jsdom = require('mocha-jsdom')
-const path = require('path')
-var uppercase = "I LOVE YOU GRANDMA"
-
-uppercase.toUpperCase() === uppercase // true
-
-var lowercase = 'hello!'
-
-lowercase.toLowerCase() === lowercase // true
-
-var mixedCase = 'Hi there!'
-
-mixedCase.toLowerCase() === mixedCase // false
-
-mixedCase.toUpperCase() === mixedCase // false
-
 function shout(string) {
   return string.toUpperCase()
 }
@@ -37,7 +18,7 @@ describe('whisper(string)', function() {
   })
 })
 function logShout(string) {
-       console.console.log(string.toUpperCase());
+       console.log(string.toUpperCase());
 }
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
@@ -51,7 +32,7 @@ describe('logShout(string)', function() {
   })
 })
 function logWhisper(string) {
-       console.console.log(string.toLowerCase());
+       console.log(string.toLowerCase());
 }
 describe('logShout(string)', function() {
 
